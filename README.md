@@ -1,3 +1,4 @@
+
 # 🗓️ Timetable Management System
 
 ## 👨‍💻 Team Members
@@ -42,31 +43,43 @@ We propose a system with **two interfaces**:
 | **ER Diagram**       | Drawn using draw.io / dbdiagram.io |
 | **IDE**              | VS Code / PyCharm |
 | **Version Control**  | Git & GitHub     |
+| **Browser**          | LQIEt Browser for embedded student view |
 
 ---
 
-## 🖥️ Dashboard Overview
+## 🚀 Installation & Run Instructions
 
-The system dashboard provides quick access to the following modules:
+To run the Timetable Management System on your local machine:
 
-- Manage Students  
-- Manage Teachers  
-- Manage Courses  
-- Room Scheduling  
-- View Time Table  
-- Admin Settings
+### ✅ Prerequisites
 
-A **summary panel** displays:
-- Total Students
-- Total Teachers
-- Total Courses
-- Total Rooms
+Make sure you have Python 3 installed. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+Install required libraries:
+```bash
+pip install tk
+```
+
+> **Note:** Tkinter comes pre-installed with Python in most distributions. If not, install manually depending on your OS.
 
 ---
 
+### 📂 Run Order
+
+1. **Create the Database Schema** (only once):
+```bash
+python schema.py
+```
+
+2. **Launch the Application**:
+```bash
+python main.py
+```
+
+The system will launch with both **Admin** and **Student** access panels.
+
+---
 ## 📊 Tables & Their Purpose
-
-Here’s a summary of the main database tables and their functions:
 
 | Table Name              | Purpose |
 |-------------------------|---------|
@@ -89,5 +102,8 @@ Here’s a summary of the main database tables and their functions:
 | **TeacherOfficeRooms**  | Stores information about teacher office rooms. |
 
 ---
+
+## 🎓 FAST NUCES
 Project developed under the Department of Computer Science at FAST National University of Computer and Emerging Sciences.
+
 ---
