@@ -31,6 +31,20 @@ We propose a system with **two interfaces**:
 
 ---
 
+## 💻 Technologies Used
+
+| Component            | Technology      |
+|----------------------|-----------------|
+| **Programming Language** | Python            |
+| **Database**         | SQLite3          |
+| **Frontend GUI**     | Tkinter (Python GUI Library) |
+| **Database Management** | SQL Scripts embedded in Python |
+| **ER Diagram**       | Drawn using draw.io / dbdiagram.io |
+| **IDE**              | VS Code / PyCharm |
+| **Version Control**  | Git & GitHub     |
+
+---
+
 ## 🖥️ Dashboard Overview
 
 The system dashboard provides quick access to the following modules:
@@ -75,18 +89,5 @@ Here’s a summary of the main database tables and their functions:
 | **TeacherOfficeRooms**  | Stores information about teacher office rooms. |
 
 ---
-
-## 🧩 Entity Relationship Diagram (ERD)
-
-![ERD](./timetable_erd.png)
-
----
-
-## 🎓 FAST NUCES
-
-![FAST Logo](./NU-logo.jpg)
-
 Project developed under the Department of Computer Science at FAST National University of Computer and Emerging Sciences.
-
 ---
-
