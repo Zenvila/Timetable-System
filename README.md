@@ -57,7 +57,7 @@ Make sure you have Python 3 installed. You can download it from [https://www.pyt
 
 Install required libraries:
 ```bash
-pip install tk
+pip install tk sqlite3  sqlitebrowser  
 ```
 
 > **Note:** Tkinter comes pre-installed with Python in most distributions. If not, install manually depending on your OS.
